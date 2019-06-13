@@ -10,6 +10,7 @@ namespace TESTDONUTS.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Stuff = "Adding super cool stuff here";
             return View();
         }
 
